@@ -1,2 +1,2 @@
 # estuarpy
-Python for estuarine analyzing  / Python para o analise de estuarios
+Python for estuaries  / Python para o analise de estuarios
