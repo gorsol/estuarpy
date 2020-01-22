@@ -1,0 +1,76 @@
+                                                                                
+                            QUALITY ASSESSMENT OF SEA LEVEL DATA                
+                                           by the                               
+                   UH SEA LEVEL CENTER/NATIONAL OCEANOGRAPHIC DATA CENTER     
+                                 JOINT ARCHIVE FOR SEA LEVEL                    
+                                       updated: 30 Sep 2015
+              Station  : Inhambane                 Latitude:  23 52.1S
+              Country  : Mozambique               Longitude: 035 22.6E
+              JASL #   : 900A                 Time Meridian: 030E (GMT + 2 hr)
+              GLOSS #  : 010  Originator #:          NODC #: 52033501
+              Contributor  : National Oceanography Centre
+                             Joseph Proudman Building
+                             6 Brownlow Street
+                             Liverpool L3 5DA
+                             United Kingdom
+              Originator   : INAHINA
+                             Instituto Nacional de Hidrografia
+                             e Navegacao
+                             Maputo, Mozambique
+              Original Data: digital
+              Instrmnt Type: OTT Kalesto radar sensor
+                             OTT ODS4-K pressure sensor (backup)
+              Digitzd Intvl: 1 or 3 min
+              Present Data : Hourly, daily, and monthly values obtained by:     
+                    Hourly : Data provided to JASL at 15-minute intervals.
+                             Spot readings on the hour were made.
+                    Daily  : 119-point convolution filter (Bloomfield, 1976)    
+                             centered on noon applied to the hourly data        
+                             with respective periods of the 95, 50, and 5%      
+                             amplitude points at 124.0, 60.2, and 40.2 hours    
+                    Monthly: Simple average of all daily values; calculated if  
+                             7 or fewer days are missing 
+              Span of data : 07 May 2007 - 09 Sep 2014
+              Gaps > 1 mon : limited use dataset with only a few short spans
+                             on the order of days without gaps
+              Time Refernce: GMT (hours 00-23)   Space-filler Flag   :-9999     
+              Units        : millimeters         Missing Data Flag   : 9999     
+              Existing     : Yes                 Operational         : Yes      
+              Sat. Trans.  : unconfirmed         Distribution        : 2011-2011
+              Refernce Levl: The tide gauge has not yet been levelled into the
+                             local benchmark network.  Data are uncalibrated
+                             heights from the Kalesto radar sensor.  Benchmark
+                             heights are given relative to local Chart Datum.
+                             The pier was rebuilt after Sep 2007.  Measurement
+                             datum probably changed upon reinstallation.
+                             In addition, there are clear datum shifts on
+                             28 Mar 2010, 01 Aug 2010, and 21 Apr 2012.
+                             Benchmark information is available from BODC
+                             or INAHINA.
+              Comment      : The period 01-27 Sep 2011 has uninterrupted
+                             measurements.  Thus only the 2011 year of data
+                             has been released within the JASL set, since 
+                             most of the span 2007-2013 contains large gaps
+                             on order of days to months, as well as consecutive
+                             days with a large percent of the measurements
+                             missing.  With such a short span of gapless data,
+                             the ability to perform a tidal analysis is greatly
+                             limited.  Thus quality control on the timing
+                             accuracy is not possible.  No interpolation of
+                             short gaps was performed due to low quality of
+                             tidal harmonic constituents from the tidal 
+                             analysis.  In general, these data should be 
+                             used with extreme caution and provide very 
+                             limited applications.
+                              
+                    CI MISSING              REPLACED GAPS     QUESTIONABLE      
+              YEAR (%) DATA                 OR BAD DATA       FLUCTUATIONS      
+              ---- --- -------------------- --------------- --------------------
+              2007  19 see comment above    none            see comment above
+              2008   0 see comment above    none            see comment above
+              2009   9 see comment above    none            see comment above
+              2010   7 see comment above    none            see comment above
+              2011  30 see comment above    none            see comment above
+              2012  37 see comment above    none            see comment above
+              2013  44 see comment above    none            see comment above
+              2014  28 see comment above    none            see comment above

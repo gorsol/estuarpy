@@ -1,0 +1,56 @@
+                                                                                
+                            QUALITY ASSESSMENT OF SEA LEVEL DATA                
+                                           by the                               
+                   UH SEA LEVEL CENTER/NATIONAL OCEANOGRAPHIC DATA CENTER     
+                                 JOINT ARCHIVE FOR SEA LEVEL                    
+                                                                                
+              Station  : Maputo-A                  Latitude:  26 10.0S          
+              Country  : Mozambique               Longitude: 032 42.0E          
+              JASL #   : 190A                 Time Meridian: 030E (GMT + 2 hr)  
+              GLOSS #  : none     TOGA #: I011       NODC #: 32036201           
+              Contributor  : Instituto Hidrografico Marinha                     
+                             Rua das Trinas                                     
+                             49-P-1296 Lisboa Codex                             
+                             Lisbon, Portugal                                   
+              Originator   : same                                               
+              Original Data: unconfirmed                                        
+              Instrmnt Type: unconfirmed                                        
+              Digitzd Intvl: unconfirmed                                        
+              Present Data : Hourly, daily, and monthly values obtained by:     
+                    Hourly : unconfirmed                                        
+                    Daily  : 119-point convolution filter (Bloomfield, 1976)    
+                             centered on noon applied to the hourly data        
+                             with respective periods of the 95, 50, and 5%      
+                             amplitude points at 124.0, 60.2, and 40.2 hours    
+                    Monthly: Simple average of all daily values; calculated if  
+                             7 or fewer days are missing                        
+              Span of data : 01 Jan 1974 - 31 Dec 1974                          
+              Gaps > 1 mon : none                                               
+              Time Refernce: GMT (hours 00-23)   Space-filler Flag   :-9999     
+              Units        : millimeters         Missing Data Flag   : 9999     
+              Existing     : Uncertain           Operational         : Uncertain
+              Sat. Trans.  : No                  Distribution        : 1974-1974
+              Refernce Levl: All heights have been referred to the station tide 
+                             staff zero which is linked to fixed bench marks    
+              Comment      : The daily and monthly means reveal no              
+                             apparent reference level changes or trends.        
+                             The hourly residuals have periodic fluctuations    
+                             which are most likely due to the harmonic analysis 
+                             not being able to completely resolve all the tidal 
+                             constituents.  However, some of the periodic       
+                             fluctuations may be the result of timing errors.   
+                                                                                
+                    CI MISSING              REPLACED GAPS     QUESTIONABLE      
+              YEAR (%) DATA                 OR BAD DATA       FLUCTUATIONS      
+              ---- --- -------------------- --------------- --------------------
+              1974 100 none                 none            1,8,12-16,22-23,26- 
+                                                            29,41-43,51-52,56-  
+                                                            61,70-74,78-95,105, 
+                                                            110-115,124-131,142-
+                                                            144,175-176,199-200,
+                                                            219-220,230-233,239-
+                                                            240,245,250-256,259-
+                                                            260,266-277,282-284,
+                                                            291-292,299,313-314,
+                                                            325,330-340,344-348,
+                                                            352,356             

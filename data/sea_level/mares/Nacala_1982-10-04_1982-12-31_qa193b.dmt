@@ -1,0 +1,44 @@
+                                                                                
+                            QUALITY ASSESSMENT OF SEA LEVEL DATA                
+                                           by the                               
+                   UH SEA LEVEL CENTER/NATIONAL OCEANOGRAPHIC DATA CENTER     
+                                 JOINT ARCHIVE FOR SEA LEVEL                    
+                                                                                
+              Station  : Nacala-B                  Latitude:  14 27.8S          
+              Country  : Mozambique               Longitude: 040 40.8E          
+              JASL #   : 193B                 Time Meridian: 030E (GMT + 2 hr)  
+              GLOSS #  : none     TOGA #: none       NODC #: 31044001           
+              Contributor  : Instituto Hidrografico Marinha                     
+                             Rua das Trinas                                     
+                             49-P-1296 Lisboa Codex                             
+                             Lisbon, Portugal                                   
+              Originator   : same                                               
+              Original Data: unconfirmed                                        
+              Instrmnt Type: unconfirmed                                        
+              Digitzd Intvl: unconfirmed                                        
+              Present Data : Hourly, daily, and monthly values obtained by:     
+                    Hourly : unconfirmed                                        
+                    Daily  : 119-point convolution filter (Bloomfield, 1976)    
+                             centered on noon applied to the hourly data        
+                             with respective periods of the 95, 50, and 5%      
+                             amplitude points at 124.0, 60.2, and 40.2 hours    
+                    Monthly: Simple average of all daily values; calculated if  
+                             7 or fewer days are missing                        
+              Span of data : 03 Oct 1982 - 01 Jan 1983                          
+              Gaps > 1 mon : none                                               
+              Time Refernce: GMT (hours 00-23)   Space-filler Flag   :-9999     
+              Units        : millimeters         Missing Data Flag   : 9999     
+              Existing     : Uncertain           Operational         : Uncertain
+              Sat. Trans.  : No                  Distribution        : 1982-1983
+              Refernce Levl: All heights have been referred to the station tide 
+                             staff zero which is linked to fixed bench marks    
+              Comment      : The daily means due not reveal any obvious         
+                             reference level problems.  Timing errors occur     
+                             throughout.                                        
+                                                                                
+                    CI MISSING              REPLACED GAPS     QUESTIONABLE      
+              YEAR (%) DATA                 OR BAD DATA       FLUCTUATIONS      
+              ---- --- -------------------- --------------- --------------------
+              1982  25 none                 none            276-324,327-333,    
+                                                            337-365             
+              1983   1 none                 none            1                   

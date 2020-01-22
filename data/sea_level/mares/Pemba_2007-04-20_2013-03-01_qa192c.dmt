@@ -1,0 +1,185 @@
+                                                                                
+                            QUALITY ASSESSMENT OF SEA LEVEL DATA                
+                                           by the                               
+                   UH SEA LEVEL CENTER/NATIONAL OCEANOGRAPHIC DATA CENTER     
+                                 JOINT ARCHIVE FOR SEA LEVEL                    
+                                       Updated: 12 Sep 2013
+              Station  : Pemba-C                   Latitude:  12 58.1S
+              Country  : Mozambique               Longitude: 040 29.2E
+              JASL #   : 192C                 Time Meridian: 030E (GMT + 2 hr)  
+              GLOSS #  : 011  Originator #:          NODC #: 31042001
+              Contributor  : National Oceanography Centre
+                             Joseph Proudman Building
+                             6 Brownlow Street
+                             Liverpool L3 5DA
+                             United Kingdom
+              Originator   : INAHINA
+                             Instituto Nacional de Hidrografia
+                             e Navegacao
+                             Maputo, Mozambique
+              Original Data: digital
+              Instrmnt Type: OTT Kalesto radar sensor
+              Digitzd Intvl: 1 or 3 min
+              Present Data : Hourly, daily, and monthly values obtained by:     
+                    Hourly : Data provided to JASL at 15-minute intervals.
+                             Spot readings on the hour were made.
+                    Daily  : 119-point convolution filter (Bloomfield, 1976)    
+                             centered on noon applied to the hourly data        
+                             with respective periods of the 95, 50, and 5%      
+                             amplitude points at 124.0, 60.2, and 40.2 hours    
+                    Monthly: Simple average of all daily values; calculated if  
+                             7 or fewer days are missing                        
+              Span of data : 19 Apr 2007 - 28 Jun 2013
+              Gaps > 1 mon : 17 Sep 2009 - 30 Jul 2010;12 Dec 2010 - 11 Jan 2011
+                             16 Jan 2011 - 13 May 2011;19 Aug 2011 - 07 Nov 2012
+                             Sparse data overall 9/2009-6/2013
+              Time Refernce: GMT (hours 00-23)   Space-filler Flag   :-9999     
+              Units        : millimeters         Missing Data Flag   : 9999     
+              Existing     : Yes                 Operational         : Yes
+              Sat. Trans.  : Yes                 Distribution        : 2007-2013
+              Refernce Levl: All heights have been referred to local Chart 
+                             Datum. The station ceased operation from Sep 2009
+                             until Jul 2010.  192C is separate from 192A and
+                             192B since each has a unique reference level.
+                Benchmark       Description
+                TGBM          Near the tide gauge
+                MN1 (1964)    Plate fixed on the pavement in the SW end of the
+                              harbour 
+                MN4 (1970)    On the stairs inside the harbour
+                MN2 / PN1964  Bronze plate fixed in first step at the main 
+                              entrance of Maritime Administration Building 
+                              South- East side.
+                PN09          Side entrance of Clube Ferroviario's building
+                PN02          Installed on the cement support of the 
+                              telecommunication closet on the street 
+                              perpendicular to the INAHINA road
+                INA           To the left of the main entrance of INAHINA office
+                PN06          Installed on the cement support of the 
+                              telecommunication closet on the side of the 
+                              market building
+                PN07          Installed on the top edge of seating structure 
+                              adjacent to the staircase
+                PMBA          GNSS installation, on roof of INAHINA building
+
+                Datum Relationships:
+                Chart Datum = 5.722m below TGBM
+                Chart Datum = 5.710m below MN1
+                Chart Datum = 6.510m below Stilling Well Contact Point
+                Chart Datum = 4.096m below MN4       
+                Chart Datum = 6.507m below MN2 / PN1964
+                Chart Datum = 7.268m below PN09
+                Chart Datum = 11.076m below PN02
+                Chart Datum = 14.262m below INA
+                Chart Datum = 23.780m below PN06
+                Chart Datum = 34.932m below PN07
+                Chart Datum = 18.755m below PMBA
+              Comment      : 1) BODC notes: Amplitudes and phases of main
+                tidal constituents have been compared with previously
+                calculated values. Records have been visually inspected for
+                spikes, datum shifts and timing errors.
+                2) JASL: gaps 24 hour or less were interpolated at the JASL.
+                Residuals suggest there could be some timing drift throughout,
+                though it could also be due to the inability of the tidal
+                analysis to resolve all the tidal components.
+
+                The tide gauge is located on the only pier of the harbour,    
+                in the old town.
+
+                A strong diurnal signal is still present after removing the 
+                predicted tidal cycle from the series.
+
+                    CI MISSING              REPLACED GAPS     QUESTIONABLE      
+              YEAR (%) DATA                 OR BAD DATA       FLUCTUATIONS      
+              ---- --- -------------------- --------------- --------------------
+              2007  70 none                 (18)205-(15)206 see comment above
+                                            (18)221-(01)222
+              2008  97 197-205,273-275      (12)135-(21)135 see comment above
+                                            (11)137-(01)138
+              2009  69 107-108,228-230,250- (17)083-(07)084 see comment above
+                       256,260-365          (13)084-(12)085
+                                            (18)108-(07)109
+                                            (09)109-(06)110
+                                            (23)146-(07)147
+                                            (04)197-(12)197
+                                            (00)200-(09)200
+                                            (10)206-(18)206
+                                            (08)208-(15)208
+                                            (05)227-(23)227
+                                            (20)230-(08)231
+                                            (09)249-(17)249
+                                            (01)252-(22)252
+                                            (05)254-(03)255
+                                            (07)256-(03)257
+                                            (17)257-(00)258
+                                            (17)258-(08)259
+                                            (10)259-(20)259
+                                            (22)259-(07)260
+              2010  35 1-211,237-240,327-   (09)216-(16)216 see comment above
+                       332,346-265          (18)216-(01)217
+                                            (09)217-(20)217
+                                            (08)221-(18)221
+                                            (11)222-(20)222
+                                            (22)222-(05)223
+                                            (10)223-(20)223
+                                            (16)224-(23)224
+                                            (06)228-(20)228
+                                            (18)229-(01)230
+                                            (06)230-(22)230
+                                            (09)231-(08)232
+                                            (10)235-(19)235
+                                            (01)236-(23)236
+                                            (06)241-(21)241
+                                            (09)244-(17)244
+                                            (10)246-(17)246
+                                            (11)248-(19)248
+                                            (07)249-(17)249
+                                            (08)251-(17)251
+                                            (10)252-(21)252
+                                            (06)257-(13)257
+                                            (01)258-(11)258
+                                            (22)258-(19)259
+                                            (04)324-(12)324
+                                            (05)336-(21)336
+                                            (23)336-(17)337
+                                            (08)338-(19)338
+                                            (15)340-(23)340
+                                            (05)343-(13)343
+              2011  18 1-133,141-143,161-   (10)136-(00)137 see comment above
+                       163,165-171,185-203, (04)139-(00)140
+                       205-208,219-220,     (16)143-(01)144
+                       225-229,231-365      (10)146-(00)147
+                                            (06)147-(00)148
+                                            (11)148-(00)149
+                                            (05)151-(00)152
+                                            (16)155-(00)156
+                                            (04)157-(00)158
+                                            (06)158-(00)159
+                                            (06)159-(00)160
+                                            (21)163-(09)164
+                                            (12)167-(00)168
+                                            (05)175-(00)176
+                                            (17)177-(00)178
+                                            (02)178-(00)179
+                                            (11)180-(00)181
+                                            (03)183-(00)184
+                                            (15)213-(00)214
+                                            (02)214-(00)215
+                                            (11)218-(18)218
+                                            (14)220-(05)221
+                                            (16)224-(23)224
+                                            (15)230-(05)231
+              2012   6 1-312,314-318,320-   (19)312-(06)313 see comment above
+                       330,333-339,342-345, (21)318-(12)319
+                       348-354,356-363,     (04)332-(14)332
+                       364-366              (07)340-(06)341
+                                            (20)345-(06)346
+                                            (15)347-(06)348
+                                            (07)356-(14)356
+              2013   4 1-59,61-178          (18)059-(11)060 
+                                            (18)060-(01)061 see comment above
+                                            (21)085-(10)086
+                                            (13)130-(10)131
+                                            (18)143-(12)144
+                                            (14)150-(06)151
+                                            (13)168-(08)169
+                                            (14)178-(07)179

@@ -1,0 +1,67 @@
+                                                                                
+                            QUALITY ASSESSMENT OF SEA LEVEL DATA                
+                                           by the                               
+                   UH SEA LEVEL CENTER/NATIONAL OCEANOGRAPHIC DATA CENTER     
+                                 JOINT ARCHIVE FOR SEA LEVEL                    
+                                                                                
+              Station  : Maputo-B                  Latitude:  25 58.5S
+              Country  : Mozambique               Longitude: 032 34.2E
+              JASL #   : 190B                 Time Meridian: 030E (GMT + 2 hr)  
+              GLOSS #  : none     TOGA #: I011       NODC #: 32035201           
+              Contributor  : Instituto Nacional De Hidrografia E Navegacao
+                             Av. Karl Marx No 153
+                             Caixa Postal 2089
+                             Maputo
+                             MOZAMBIQUE
+              Originator   : same                                               
+              Original Data: unconfirmed                                        
+              Instrmnt Type: unconfirmed                                        
+              Digitzd Intvl: unconfirmed                                        
+              Present Data : Hourly, daily, and monthly values obtained by:     
+                    Hourly : unconfirmed                                        
+                    Daily  : 119-point convolution filter (Bloomfield, 1976)    
+                             centered on noon applied to the hourly data        
+                             with respective periods of the 95, 50, and 5%      
+                             amplitude points at 124.0, 60.2, and 40.2 hours    
+                    Monthly: Simple average of all daily values; calculated if  
+                             7 or fewer days are missing                        
+              Span of data : 30 Jun 1981 - 31 Dec 1986
+              Gaps > 1 mon : 30 Jun 1982 - 06 Jan 1984;31 Dec 1984 - 31 Dec 1985
+              Time Refernce: GMT (hours 00-23)   Space-filler Flag   :-9999     
+              Units        : millimeters         Missing Data Flag   : 9999     
+              Existing     : Yes                 Operational         : Yes
+              Sat. Trans.  : No                  Distribution        : 1981-1986
+              Refernce Levl: All heights have been referred to the station tide 
+                             staff zero which is linked to fixed bench marks    
+              Comment      : The daily and monthly means reveal no              
+                             apparent reference level changes or trends.        
+                             The hourly residuals have periodic fluctuations    
+                             which are most likely due to the harmonic analysis 
+                             not being able to completely resolve all the tidal 
+                             constituents.  Timing errors are clearly evident
+                             during most of 1984-86.
+                                                                                
+                    CI MISSING              REPLACED GAPS     QUESTIONABLE      
+              YEAR (%) DATA                 OR BAD DATA       FLUCTUATIONS      
+              ---- --- -------------------- --------------- --------------------
+              1981  50 none                 (00)226-(21)226 none
+                                            (22)232-(21)233
+              1982  45 120-137,181-365      (11)093-(21)093 none
+              1983   0 1-365                none            none
+              1984  87 1-6,15-16,70-75,146- (00)029-(19)029 16-40,52-54,58-73,
+                       150,188-191,258-286, (23)166-(06)167 119-125,133,163-169,
+                       366                  (13)209-(07)210 210,237,240-244,252,
+                                            (01)220-(08)220 325-327,332
+                                            (01)221-(09)221
+                                            (22)320-(09)321
+                                            (22)335-(23)335
+                                            (22)350-(09)351
+              1985   0 1-365                none            none
+              1986  88 48-49,81-83,88-90,   (01)016-(11)016 12-15,38-41,47-52,
+                       170-172,212-243,333- (06)086-(16)086 67,81,100-108,250-
+                       335,365              (10)093-(21)093 251,335-365
+                                            (08)120-(21)120
+                                            (07)252-(06)253
+                                            (11)262-(08)263
+                                            (08)331-(18)331
+                                            (22)331-(08)332

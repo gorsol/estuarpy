@@ -1,0 +1,9 @@
+Data source:
+
+http://www.ioc-sealevelmonitoring.org/ssc/stationdetails.php?id=SSC-inha
+
+http://www.ioc-sealevelmonitoring.org/station.php?code=inha
+
+http://uhslc.soest.hawaii.edu/data/?fd#uh900				#2007-05-08 	2014-07-31
+
+http://uhslc.soest.hawaii.edu/data/?rq#uh900a				#2011-07-02 	2011-09-27 	
