@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 Gorka Solana
+Copyright (c) 2020 [Gorka Solana](https://orcid.org/0000-0002-1212-0574)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
