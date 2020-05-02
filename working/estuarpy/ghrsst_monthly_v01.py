@@ -130,7 +130,7 @@ def readDataset(verb=False):
 
         return    
     
-    path="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/2017 paper/Graficos/Datos/GHRSST/"
+    path="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/00_Work/00_Python/Datos/GHRSST/"
     filename="aggregate__ghrsst_JPL_OUROCEAN-L4UHfnd-GLOB-G1SST_OI.ncml.nc"
 
     base_time = "2010-06-09T12:00:00Z" 
@@ -163,7 +163,7 @@ def readDataset(verb=False):
     return sst, dates, lat, lon
 
 
-def findPointIndex(point):
+def findPointIndex(point, lat, lon):
     """
     Find the points closest index
     
@@ -183,7 +183,7 @@ def findPointIndex(point):
     return index
 
 
-def calcMeanValues(C11, sst=sst, dates=dates):
+def calcMeanValues(C11, sst, dates, lat, lon):
     """
     
     INPUT:
@@ -197,7 +197,7 @@ def calcMeanValues(C11, sst=sst, dates=dates):
         
     """
     
-    idx=findPointIndex(C11)
+    idx=findPointIndex(C11,lat=lat, lon=lon)
  
     sst.mean(axis=(0,1))[0]
     point_mean=sst[:,idx['lat'],idx['lon']].mean()
@@ -324,8 +324,8 @@ def saveFig(fig, file=""):
 
 
     if file != "":
-        plt.savefig('../../'+file+'.png', format='png', dpi=300)
-        plt.savefig(file+'.pdf', format='pdf', dpi=150, transparent=True)
+        plt.savefig('./sample/'+file+'.png', format='png', dpi=600)
+        plt.savefig('./sample/'+file+'.pdf', format='pdf', dpi=600, transparent=True)
 
     return
    
@@ -344,17 +344,17 @@ def main():
     Outter = {'Estation':'Outter','Description':'Canal Central', 'lon':35.60, 'lat':-23.6577778, 'sst':25.0}
 
     # Calculate for selected statios the monhly sst mean values and std 
-    C6_data=calcMeanValues(C6, sst=sst, dates=dates)
-    C8_data=calcMeanValues(C8, sst=sst, dates=dates)
-    C10_data=calcMeanValues(C8, sst=sst, dates=dates)
+    C6_data=calcMeanValues(C6, sst=sst, dates=dates, lat=lat, lon=lon)
+    C8_data=calcMeanValues(C8, sst=sst, dates=dates, lat=lat, lon=lon)
+    C10_data=calcMeanValues(C8, sst=sst, dates=dates, lat=lat, lon=lon)
 
-    outter=calcMeanValues(Outter, sst=sst, dates=dates)
+    outter=calcMeanValues(Outter, sst=sst, dates=dates, lat=lat, lon=lon)
 
     fig, axs = plt.subplots(figsize=(5,3), ncols=1)
     legends=['C6 Station', 'C8 Station', 'Open sea']
     plotMonthly(axs, C6_data, C8_data, outter, legends)
     
-    file="sst_monthly"
+    file="sst_monthly_manel"
     saveFig(fig, file)
 
 if __name__ == "__main__":

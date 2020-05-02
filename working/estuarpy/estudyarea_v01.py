@@ -40,6 +40,21 @@ from matplotlib.offsetbox import AnchoredText
 
 from cartopy.io import shapereader
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def plotTrack(ax):
     """
     
@@ -287,6 +302,20 @@ def plotInterestPoint(ax):
 
     return
 
+def saveFig(fig, file=""):
+    """ Save the figure
+    
+    INPUT:
+        filename : the complete filename (path + filename + extension)
+    
+    """
+
+
+    if file != "":
+        plt.savefig('./sample/'+file+'.png', format='png', dpi=300)
+        plt.savefig('./sample/'+file+'.pdf', format='pdf', dpi=150, transparent=True)
+
+
 
 def main():
     """
@@ -339,7 +368,7 @@ def main():
     plotInterestPoint(ax)
  
     # plot difters track
-    plotTrack(ax) 
+    #plotTrack(ax) 
 
 
     # Plot escale bar
@@ -357,7 +386,7 @@ def main():
 
     plt.show()
 
-    #saveFig(fig,file='estudyArea3')
+    #saveFig(fig, file='estudyArea3')
   
     
 if __name__ == '__main__':

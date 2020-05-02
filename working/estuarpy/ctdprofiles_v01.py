@@ -36,8 +36,11 @@ temperature_xlim=[22, 23]
 xlim=temperature_xlim
 xlim=[30, 34]
 
+filepath='../data/ctd/'
+
+
     
-def read2017():
+def read2017(filepath='../data/ctd/'):
     """
     
     
@@ -45,8 +48,8 @@ def read2017():
     
  
     # Files path
-    filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/2017 paper/Graficos/Datos/ctd/20170718/"
-    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/2017 paper/Graficos/Datos/ctd/20190204/"
+    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/00_Work/00_Python/Datos/ctd/20170718/"
+    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/00_Work/00_Python/Datos/ctd/20190204/"
 
     max_depth=6.75
     data_range=[15,-15]
@@ -59,6 +62,7 @@ def read2017():
     xlim=temperature_xlim
 
     # Get data files
+    filepath = filepath + "20170718/"
     files=os.listdir(filepath)
 
     # Remove bad data set 2017
@@ -121,15 +125,15 @@ def read2017():
     return (salinity_data_grid, temperature_data_grid)
 
 
-def read2019():
+def read2019(filepath='../data/ctd/'):
     """
     
     
     
     """
     # Files path
-    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/2017 paper/Graficos/Datos/ctd/20170718/"
-    filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/2017 paper/Graficos/Datos/ctd/20190204/"
+    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/00_Work/00_Python/Datos/ctd/20170718/"
+    #filepath="/home/gsolana/Work/UP_Unisaf/00 PesquisaEXtensao/2017 Modelicacao Baia/00_Work/00_Python/Datos/ctd/20190204/"
 
     max_depth=6.75
     data_range=[15,-15]
@@ -144,6 +148,7 @@ def read2019():
     xlim=temperature_xlim
 
     # Get data files
+    filepath = filepath + "20190204/"
     files=os.listdir(filepath)
 
     # Remove bad data set 2017
@@ -360,8 +365,8 @@ def saveFig(file=""):
 
 
     if file != "":
-        plt.savefig('../../'+file+'.png', format='png', dpi=300)
-        plt.savefig(file+'.pdf', format='pdf', dpi=150, transparent=True)
+        plt.savefig('../sample/'+file+'.png', format='png', dpi=300)
+        plt.savefig('../sample/'+file+'.pdf', format='pdf', dpi=300, transparent=True)
 
 
 
@@ -437,7 +442,7 @@ def main():
     #plt.tight_layout()
     plt.show()
 
-    file="ctd_profile_total"
+    file="ctd_profile"
     saveFig(file=file)
 
     print("2017: Mean salinity", np.nanmean(data2017[0]))
