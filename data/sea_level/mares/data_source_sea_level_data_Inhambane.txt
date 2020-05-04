@@ -1,3 +1,0 @@
-Data source:
-
-http://www.ioc-sealevelmonitoring.org/station.php?code=inha
