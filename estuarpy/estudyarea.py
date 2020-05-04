@@ -285,8 +285,8 @@ def saveFig(fig, file=""):
 
 
     if file != "":
-        plt.savefig('./sample/'+file+'.png', format='png', dpi=300)
-        plt.savefig('./sample/'+file+'.pdf', format='pdf', dpi=150, transparent=True)
+        plt.savefig('../sample/'+file+'.png', format='png', dpi=300)
+        plt.savefig('../sample/'+file+'.pdf', format='pdf', dpi=150, transparent=True)
 
 
 def main():
@@ -356,7 +356,7 @@ def main():
 
     plt.show()
 
-    #saveFig(fig, file='estudyArea3')
+    saveFig(fig, file='estudyarea')
   
     
 if __name__ == '__main__':
