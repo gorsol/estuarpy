@@ -15,7 +15,6 @@ The project is structured as follows:
      * "samples": the figures output
 
 
-
 If you use it, you can quote this software in your publications:
 
 Solana, G .; Grifoll, M., and Espino, M, 2020. Hydrographic variability and
