@@ -1,6 +1,12 @@
 # estuarpy
 | [PORTUGUESE](./README-pt-BR.md)
 
+
+
+[![DOI](https://zenodo.org/badge/261400719.svg)](https://zenodo.org/badge/latestdoi/261400719)
+
+
+
 Python for the analysis of estuaries
 
 The objective of this project is to give back to the community the knowledge acquired

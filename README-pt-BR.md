@@ -1,6 +1,8 @@
 # estuarpy
 | [ENGLISH](./README.md)
 
+[![DOI](https://zenodo.org/badge/261400719.svg)](https://zenodo.org/badge/latestdoi/261400719)
+
 
 Python para o analise de estuarios
 
