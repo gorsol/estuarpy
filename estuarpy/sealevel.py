@@ -50,7 +50,7 @@ def ibane_deck2017():
     next(reader)
 
     for row in reader:
-        #print(" ".join(row[:6]))
+        print(" ".join(row[:6]))
         a=row[0]+" "+row[1]
         t.append(datetime.strptime(a, "%y/%m/%d %H:%M:%S"))
         heights.append(float((row[3])))
