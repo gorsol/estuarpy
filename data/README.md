@@ -11,8 +11,8 @@ Python for the analysis of estuaries
 
 The necessary data to run the examples:
      
-	* [Tidal gauge dataset, Inhambane deck (Mozambique)] (https://zenodo.org/record/3900225#.YeaYRfv3Hv0)
-	* [Drifter deployed on Inhambane Bay (Mozambique)] (https://zenodo.org/record/3626183#.YeaYS_v3Hv0)
+	* [Tidal gauge dataset, Inhambane deck (Mozambique)](https://zenodo.org/record/3900225#.YeaYRfv3Hv0)
+	* [Drifter deployed on Inhambane Bay (Mozambique)](https://zenodo.org/record/3626183#.YeaYS_v3Hv0)
 			
 If you use it, you can quote this software in your publications:
 
